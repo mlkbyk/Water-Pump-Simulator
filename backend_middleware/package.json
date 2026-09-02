@@ -1,0 +1,31 @@
+{
+  "name": "scada-backend-middleware",
+  "version": "1.0.0",
+  "description": "Modbus TCP to Socket.IO SCADA Middleware",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:client": "node test_client.js"
+  },
+  "keywords": [
+    "modbus",
+    "scada",
+    "socket.io",
+    "express",
+    "iot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "modbus-serial": "^8.0.17",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}
+
