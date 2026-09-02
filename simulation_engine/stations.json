@@ -1,0 +1,67 @@
+[
+  {
+    "did": 12101,
+    "slave_id": 1,
+    "name": "AMAS K16 (Derin Kuyu)",
+    "type": "kuyu",
+    "desc": "Ana Derin Su Kuyusu (112.3m)",
+    "params": {
+      "pump_depth": 112.3,
+      "static_level": 88.5,
+      "default_pressure": 3.66,
+      "default_flow": 24.83,
+      "rated_power": 15.11,
+      "tank_start_level": 0.6,
+      "tank_stop_level": 3.1
+    }
+  },
+  {
+    "did": 12102,
+    "slave_id": 2,
+    "name": "AMAS K17 (Yüksek Debi)",
+    "type": "kuyu",
+    "desc": "Orta Derinlik Yüksek Debi Kuyusu (75m)",
+    "params": {
+      "pump_depth": 75.0,
+      "static_level": 58.0,
+      "default_pressure": 4.2,
+      "default_flow": 38.5,
+      "rated_power": 22.4,
+      "tank_start_level": 0.7,
+      "tank_stop_level": 3.2
+    }
+  },
+  {
+    "did": 12103,
+    "slave_id": 3,
+    "name": "AMAS K18 (Sığ Kuyu)",
+    "type": "kuyu",
+    "desc": "Sığ Yardımcı Kuyu (45m)",
+    "params": {
+      "pump_depth": 45.0,
+      "static_level": 32.0,
+      "default_pressure": 2.8,
+      "default_flow": 18.0,
+      "rated_power": 9.8,
+      "tank_start_level": 0.5,
+      "tank_stop_level": 2.9
+    }
+  },
+  {
+    "did": 12104,
+    "slave_id": 4,
+    "name": "AMAS Terfi Altı (Terfi)",
+    "type": "terfi",
+    "desc": "Ana Terfi & Basınçlandırma İstasyonu",
+    "params": {
+      "pump_depth": 10.0,
+      "static_level": 5.0,
+      "default_pressure": 5.5,
+      "default_flow": 55.0,
+      "rated_power": 30.0,
+      "tank_start_level": 0.8,
+      "tank_stop_level": 3.4
+    }
+  }
+]
+
